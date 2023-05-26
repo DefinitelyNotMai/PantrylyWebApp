@@ -14,13 +14,13 @@
         </header>
         <div class="content">
             <div class="form-group">
-                <input type="text" class="input-box" name="email" placeholder="Email" />
+                <input id="txtEmail" type="text" class="input-box" name="email" placeholder="Email" />
             </div>
             <div class="form-group">
-                <input type="password" class="input-box" name="password" placeholder="Password" />
+                <input id="txtPassword" type="password" class="input-box" name="password" placeholder="Password" />
             </div>
             <div class="form-group">
-                <button type="submit" class="login-button">LOG IN</button>
+                <button type="submit" class="login-button" onclick="">LOG IN</button>
             </div>
             <div class="form-group">
                 <a class="forgot">Forgot your password?</a>
